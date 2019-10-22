@@ -1,0 +1,34 @@
+{
+  "name": "spoticut",
+  "version": "1.0.0",
+  "description": "Quickly like the currently playing song or add it to your playlists.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soltanloo/spoticut.git"
+  },
+  "keywords": [
+    "spotify"
+  ],
+  "author": "Hossein Soltanloo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soltanloo/spoticut/issues"
+  },
+  "homepage": "https://github.com/soltanloo/spoticut#readme",
+  "dependencies": {
+    "electron": "^7.0.0",
+    "spotify-web-api-node": "^4.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-register": "^6.26.0"
+  }
+}
